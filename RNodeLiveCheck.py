@@ -57,7 +57,7 @@ def _is_pid_running_on_windows(pid):
     return is_running or exit_code.value == _STILL_ACTIVE
 
 def send_email():
-    server = smtplib.SMTP('smtp.gmail.com', 587)
+    server = smtplib.SMTP('smtp..googlemail.com', 587)
     server.ehlo()
     server.starttls()
     server.login(gmail_sender, gmail_passwd)
