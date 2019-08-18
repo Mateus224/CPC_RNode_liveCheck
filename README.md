@@ -21,4 +21,14 @@ If verything is fine the program just terminates. If you will kill your RNode th
 # Crontab
 To run the script in a loop you need to call the python script every X Minutes which will check if the Node is alive. For that you can use for example Crontab.
 
+If you have installed Crontab then write into the console:
+
+```console
+foo@bar:~$ crontab -e
+```
+choose an editor and add on the end of the file this line:
+```console
+foo@bar:~$ 5 * * * * /usr/bin/python3 /path/to/the/python/script.py
+```
+the 5 means that every 5 min the script will check if your RNode is alive.
 
