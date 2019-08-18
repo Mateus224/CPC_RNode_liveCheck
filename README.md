@@ -6,7 +6,7 @@ This Script send you an Email if your RNode has died.
 - First you have stop your RNode.
 - Then Restart your RNode with: 
 ```console
-foo@bar:~$ ./cpchain-linux-amd64 run --datadir ./datadir     --unlock your RNodeAddress     --rpcaddr 127.0.0.1:8501 --port 30311 --mine     --rpcapi personal,eth,cpc,admission,net,web3,db,txpool,miner --linenumber &  echo $!> pid.txt
+foo@bar:~$ ./cpchain-linux-amd64 run --datadir ./datadir     --unlock yourRNodeAddress     --rpcaddr 127.0.0.1:8501 --port 30311 --mine     --rpcapi personal,eth,cpc,admission,net,web3,db,txpool,miner --linenumber &  echo $!> pid.txt
 ```
 Here we start the RNode but we put it in the background and we store the PID in the pid.txt file. Now we can can put the RNode again in the foreground with:
 ```console
