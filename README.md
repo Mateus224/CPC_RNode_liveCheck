@@ -32,3 +32,5 @@ foo@bar:~$ 5 * * * * /usr/bin/python3 /path/to/the/python/script.py
 ```
 the 5 means that every 5 min the script will check if your RNode is alive.
 
+If you like the script you can give me a STAR ;p 
+
