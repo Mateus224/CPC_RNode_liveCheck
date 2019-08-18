@@ -12,7 +12,7 @@ Here we start the RNode but we put it in the background and we store the PID in 
 ```console
 foo@bar:~$ fg
 ```
-We have the PID of our CPC program stored in the file. Before we can start the python file you need replace in the RNodeLiveCheck.py your email andress and your password for accessing your email account. If you use gmail it should works otherwise you have to change line 60 to the domain of your Email Provider too. After that we can start the python script (which has be in the same folder like the cpchain program):
+We have the PID of our CPC program stored in the file. Before we can start the python file you need repleace in the RNodeLiveCheck.py your email andress and your password for accessing your email account. If you use gmail it should works otherwise you have to change line 60 to the domain of your Email Provider too. After that we can start the python script (which has be in the same folder like the cpchain program):
 ```console
 foo@bar:~$ python3 RNodeLiveCheck.py
 ```
