@@ -28,7 +28,7 @@ foo@bar:~$ crontab -e
 ```
 choose an editor and add on the end of the file this line:
 ```console
-foo@bar:~$ 5 * * * * /usr/bin/python3 /path/to/the/python/script.py
+5 * * * * /usr/bin/python3 /path/to/the/python/script.py
 ```
 the 5 means that every 5 min the script will check if your RNode is alive.
 
