@@ -12,7 +12,7 @@ Here we start the RNode but we put it in the background and we store the PID in 
 ```console
 foo@bar:~$ fg
 ```
-Now we have the PID of our RNode program and we can start the python script (which has be in the same folder like the cpchain program) to check if its work:
+We have the PID of our CPC program stored in the file so we can start the python script (which has be in the same folder like the cpchain program) to check if its work:
 ```console
 foo@bar:~$ python3 RNodeLiveCheck.py
 ```
