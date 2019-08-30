@@ -32,5 +32,3 @@ choose an editor and add on the end of the file this line:
 ```
 the 5 means that every 5 min the script will check if your RNode is alive.
 
-If you like the script you can give me a STAR ;p 
-
